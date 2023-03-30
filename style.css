@@ -1,0 +1,107 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  font-family: 'Cutive Mono', monospace;
+  box-sizing: border-box;
+  font-size: 2.2vh;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 40vw;
+  height: 40vw;
+  margin-bottom: 100px;
+  position: relative;
+  left: 30vw;
+  margin-top: 100px;
+}
+
+
+.image1 {
+  width: 8vw;
+  height: 8vw;
+  position: relative;
+  left: 3.5vw;
+  margin-top: 10vh;
+}
+
+.image2 {
+  width: 22.5vw;
+  height: 22.5vw;
+  position: relative;
+  left: 3.5vw;
+  margin-top: 10vh;
+}
+
+
+.top-links {
+  position: fixed;
+  top: 2vh;
+  right: 2vw;
+}
+
+.top-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.top-links a:hover {
+
+  color: red;
+}
+
+.top-linksl {
+  position: fixed;
+  top: 2vh;
+  left: 2vw;
+}
+
+.top-linksl a {
+  display: inline-block;
+  margin-right: 10px;
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.top-linksl a:hover {
+  color: red;
+}
+
+.header {
+  position: relative;
+  width: 102vw;
+  left:-1vw;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+}
+
+.pa {
+  position: relative;
+  left:3.5vw;
+  width:90vw;
+}
